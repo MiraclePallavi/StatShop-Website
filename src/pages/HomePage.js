@@ -1,9 +1,9 @@
 import React from 'react'
-import Layout from '../components/Layout/Layout'
+import Layout from './../components/Layout/Layout.js'
 
 function HomePage() {
   return (
-    <div>
+  
         <Layout  title={"ALl Products - Best offers "}>
         <img
         src="/images/banner.png"
@@ -16,7 +16,7 @@ function HomePage() {
         HomePage
       </h1>
       </Layout>
-    </div>
+  
   )
 }
 
